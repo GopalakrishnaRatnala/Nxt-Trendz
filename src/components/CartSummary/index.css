@@ -1,0 +1,50 @@
+.summery-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.order-total-text {
+  color: #616e7c;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 0px;
+  margin-right: 0px;
+}
+.no-of-items-text {
+  color: #616e7c;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 0px;
+  margin-right: 0px;
+}
+.content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.checkout-button {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  border: none;
+  border-radius: 5px;
+  background-color: #0b69ff;
+  align-self: stretch;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.total-price {
+  color: #171f46;
+}
+.remove-all-button {
+  border: none;
+  color: #0b69ff;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: transparent;
+  align-self: flex-end;
+  cursor: pointer;
+  outline: none;
+}
